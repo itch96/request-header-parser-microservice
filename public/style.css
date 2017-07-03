@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+li {
+  font-size: 120%;
+}
+p {
+  display: inline;
+  background-color: #B2EBF2;
+}
+footer {
+  position: absolute;
+  bottom: 0%;
+  text-align: center;
+  width: 100%;
+  background-color: pink;
+  height: 40px;
+  padding-top: 10px;
+}
+span {
+  color: red;
+}
