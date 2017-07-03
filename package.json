@@ -2,17 +2,15 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-  "name": "my-glitch-app",
+  "name": "request-header-parser-microservice",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "An app to tell the user about their system.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.15.3",
-    "body-parser": "^1.17.2",
-    "express-useragent": "^1.0.7"
+    "express": "^4.15.3"
   },
   "engines": {
     "node": "8.1.x"
@@ -23,7 +21,9 @@
   "license": "MIT",
   "keywords": [
     "node",
-    "glitch",
-    "express"
+    "express",
+    "request header",
+    "fcc",
+    "microservice"
   ]
 }
